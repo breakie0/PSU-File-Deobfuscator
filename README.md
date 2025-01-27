@@ -1,4 +1,4 @@
-# PSU-File-Deobfuscator
+# PSU File Deobfuscator
 
 # What is this tool?
 This tool is to co-exist with the [psu generic parser](https://github.com/Agrathejagged/tenora-works) by [Agrathejagged](https://github.com/Agrathejagged).
