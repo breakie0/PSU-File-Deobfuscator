@@ -16,25 +16,25 @@ The tool is seperated into 2 sections, Validating files and Renaming files.
 # Validating
 
   What can it do:
-    - Goes through a directory and checks for valid files that the [psu generic parser](https://github.com/Agrathejagged/tenora-works) can open.
-    - Remove / Relocate files parser cannot open.
+  - Goes through a directory and checks for valid files that the [psu generic parser](https://github.com/Agrathejagged/tenora-works) can open.
+  - Remove / Relocate files parser cannot open.
     
   How to use:
-    - Select the source folder of PSU DATA files.
-    - Destination folder is where you want to move files the [psu generic parser](https://github.com/Agrathejagged/tenora-works) can't open.
-    - Check files: Checks the selected source directory and returns the amount of valid and invalid [psu generic parser](https://github.com/Agrathejagged/tenora-works) data files.
-    - Move bad files: Removes all the files incompatible with [psu generic parser](https://github.com/Agrathejagged/tenora-works) and moves them to the destination folder.
+  - Select the source folder of PSU DATA files.
+  - Destination folder is where you want to move files the [psu generic parser](https://github.com/Agrathejagged/tenora-works) can't open.
+  - Check files: Checks the selected source directory and returns the amount of valid and invalid [psu generic parser](https://github.com/Agrathejagged/tenora-works) data files.
+  - Move bad files: Removes all the files incompatible with [psu generic parser](https://github.com/Agrathejagged/tenora-works) and moves them to the destination folder.
 
 # Renaming
 
-  What can it do:
-    - Goes through a directory and renames PSU data files to the original names using a mapping file.
-    
-  How to use:
-    - Select the source folder of your PSU DATA files.
-    - Select the mapping file, Mapping file contains the filenames as well as filenames that aren't md5 hashed, in this repo there is "AOTI filelist.txt" that contains most of the filenames.
-    - Clean mapping file: When checked, renaming files will clean any potential problems in the mapping file.
-    - Rename files: Goes through the selected folder and renames any PSU files contained in the mapping file.
+What can it do:
+- Goes through a directory and renames PSU data files to the original names using a mapping file.
+  
+How to use:
+- Select the source folder of your PSU DATA files.
+- Select the mapping file, Mapping file contains the filenames as well as filenames that aren't md5 hashed, in this repo there is "AOTI filelist.txt" that contains most of the filenames.
+- Clean mapping file: When checked, renaming files will clean any potential problems in the mapping file.
+- Rename files: Goes through the selected folder and renames any PSU files contained in the mapping file.
 
 # Console
   In case you need to see whats happening under the hood.
